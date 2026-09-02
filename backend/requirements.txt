@@ -1,2 +1,7 @@
 Flask
 gunicorn
+numpy
+scikit-learn
+librosa
+joblib
+soundfile
