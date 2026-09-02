@@ -82,9 +82,9 @@ class _HomePageState extends State<HomePage> {
       // 10.0.2.2 points to your computer localhost.
       final request = http.MultipartRequest(
         'POST',
-        Uri.parse(
-          'http://10.0.2.2:5000/predict',
-        ),
+       Uri.parse(
+  'https://voice-gender-app-1.onrender.com/predict',
+),
       );
 
       request.files.add(
